@@ -5,5 +5,5 @@ import lombok.experimental.Accessors;
 
 @Builder @Accessors(fluent = true, chain = true)
 public record OrderOut (
-    Integer id
+    String id
 ) { }

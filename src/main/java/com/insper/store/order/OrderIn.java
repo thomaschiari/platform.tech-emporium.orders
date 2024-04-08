@@ -5,7 +5,7 @@ import lombok.experimental.Accessors;
 
 @Builder @Accessors(fluent = true, chain = true)
 public record OrderIn (
-    Integer productId,
+    String productId,
     Integer quantity,
     String email
 ) { }
